@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Quiz</title>
+
+</head>
+<body>
+
+<div id="title">
+<div id="body"><h1>Questions</h1></div>
+
+<form id="q1">
+<fieldset>
+<h2>Question 1</h2>
+<label for="var_string"><input type="radio" name="variable" value="10" id="var_string" />A</label>
+<label for="var_join"><input type="radio" name="variable" value="20" id="var_join" />B</label>
+<label for="var_info"><input type="radio" name="variable" value="30" id="var_info" />C</label>
+<label for="var_condition"><input type="radio" name="variable" value="40" id="var_condition"/>D</label>
+
+<button type="submit" value="submit">Results</button>
+</fieldset>
+</form>
+
+<p>Your current health rating out of 40 is: <span id="score">__</span></p>
+<p id="score2"></p>
+
+<script src="scripts/quiz.js"></script>
+
+</div>
+</body>
+</html>
