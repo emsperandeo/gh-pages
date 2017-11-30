@@ -18,7 +18,7 @@ I was pleased with how simple it was to plug in photos to my JavaScript. It took
 
 Week two:
 
-This week I researched all of my quiz material and plugged in all of the information. I also finished the rest of my questions in javascript and figured out all of the issues I had with hiding and showing my questions one at a time.
+This week I researched all of my quiz material and plugged in all of the information. I also finished the rest of my questions in javascript and figured out all of the issues I had with hiding and showing my questions one at a time. I added jQuery for interactivity.
 
 I am, however, having issues with where to plug in my image attribution in javascript and how to format it since it's not in my HTML. I'm also having issues figuring out how to add a hyperlink in my JavaScript because i'm not sure how to format that as well. I will work on this over the weekend and in class on Tuesday.
 
