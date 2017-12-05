@@ -1,0 +1,71 @@
+body {
+background-color: #72C2A5;
+font-family: 'Montserrat', sans-serif;
+}
+
+#body {
+padding: 40px;
+background-color: white;
+border: 1px solid grey;
+max-width: 700px;
+margin: auto;
+border-radius: 35px;
+font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+background-image: url("images/starch.jpg") no-repeat top center;
+border: 1px solid grey;
+padding: 5px;
+padding-top: 20px;
+color: white;
+height: 150px;
+max-width: 700px;
+background: darkgrey;
+border-radius: 10px;
+text-align: center;
+}
+
+#money {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+}
+
+#dollar {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+}
+
+#coin {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+}
+
+#rich {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+}
+
+#question1 {
+  padding: 20px;
+}
+
+#question2 {
+  padding: 20px;
+}
+
+#question3 {
+  padding: 20px;
+}
+
+#question4 {
+  padding: 20px;
+}

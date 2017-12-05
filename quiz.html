@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Food Quiz</title>
-
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
 
-<div id="title">
-<div id="body"><h1>Do you really know about veganism?</h1></div>
+<div id="body">
+<div id="title"><h1>Do you really know about veganism?</h1>
+</div>
 
 <form id="question1">
-<fieldset id="q1">
+
 <h2>What does your usual diet primarily consist of?</h2>
 <label for="var_string"><input type="radio" name="variable1" value="Sugar:" id="var_string" />Sugary food like cereal, granola bars, and desserts</label><br>
 <label for="var_join"><input type="radio" name="variable1" value="Vegetables:" id="var_join" />Vegetables and fruits like natural smoothies and healthy home-cooked meals</label><br>
@@ -18,21 +21,21 @@
 <label for="var_condition"><input type="radio" name="variable1" value="Starch:" id="var_condition"/>Starches like toast, rice, pasta</label><br>
 
 <button id="money" type="submit" value="submit">Results</button>
-</fieldset>
+
 </form>
 
 <form id="question2">
-<fieldset id="q1">
+
 <h2>Have you read the ingredients for any of the past 5 food items you’ve purchased?</h2>
 <label for="var_string"><input type="radio" name="variable2" value="Yes:" id="var_string" />Yes!</label><br>
 <label for="var_join"><input type="radio" name="variable2" value="No:" id="var_join" />No...</label><br>
 
 <button id="dollar" type="submit" value="submit">Results</button>
-</fieldset>
+
 </form>
 
 <form id="question3">
-<fieldset id="q3">
+
 <h2>Which of these are affected by your dietary choices?</h2>
 <label for="var_string"><input type="radio" name="variable3" value="Physical health:" id="var_string">Physical health such as cholestoral, skin, and even mood</label><br>
 <label for="var_join"><input type="radio" name="variable3" value="Greenhouse gases:" id="var_join">Greenhouse gases</label><br>
@@ -40,19 +43,19 @@
 <label for="var_condition"><input type="radio" name="variable3" value="Animals:" id="var_condition">Animal health and wellbeing</label><br>
 
 <button id="coin"  type="submit" value="submit">Results</button>
-</fieldset>
+
 </form>
 
 <form id="question4">
-<fieldset id="q4">
+
 <h2>What’s stopping you from changing your diet?</h2>
 <label for="var_string"><input type="radio" name="variable4" value="Too hard:" id="var_string" />It’s too hard to have a plant-based diet</label><br>
 <label for="var_join"><input type="radio" name="variable4" value="Lack of nutrients:" id="var_join" />I’m afraid I won’t get the nutrients I need</label><br>
 <label for="var_info"><input type="radio" name="variable4" value="Don't like the food:" id="var_info" />I don’t like the taste of vegan cuisine</label><br>
 <label for="var_condition"><input type="radio" name="variable4" value="Won't make a difference:" id="var_condition"/>I don't think it'll make a difference</label><br>
 
-<button type="submit" value="submit">Results</button>
-</fieldset>
+<button id="rich" type="submit" value="submit">Finish</button>
+
 </form>
 
 <p><span id="score"></span></p>

@@ -26,6 +26,10 @@ $('#coin').click (function(){
 question4();
 })
 
+$('#rich').click (function(){
+question1();
+})
+
 document.getElementById("question1").onsubmit=function() {
        variable1 = document.querySelector('input[name = "variable1"]:checked').value;
 
