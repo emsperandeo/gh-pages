@@ -52,3 +52,4 @@ https://commons.wikimedia.org/wiki/File:Social_Determinants_of_Health_Infoviz.jp
 https://commons.wikimedia.org/wiki/File:Instrumental_Temperature_Record.png
 https://commons.wikimedia.org/wiki/File:Trough_time_-_by_Dan_Taylor.jpg
 https://commons.wikimedia.org/wiki/File:Hog_confinement_barn_interior.jpg
+https://www.flickr.com/photos/smiteme/7967491498/in/photolist-d94tD5-kYz9J3-YtEsSq-eeaGuP-acGxXQ-9JybEV-SHFn5T-ZyiZRR-6oxRu2-ZyeUVb-9njSXG-6bsEdF-bAsuRT-bok4mt-nHiMn7-W1bnUE-ZmbEo1-9njSEh-eqYWYV-ZeJrqG-TdhNjc-21aR8JJ-ZJxwDu-21NbY2q-6qEZZk-9LJbcG-QUwo4M-kYxq34-ZGBmZS-bCiW5f-5Vi5jH-4TZKCK-c11mS-XQLvSe-cRtMvL-b87fs2-4CeSQH-YwFGkh-5Frg1x-8jnQze-ipcmC3-4RmMbz-BBhCC-21zU6Wu-kasiG9-5Vi3LD-8Sw38A-4s6uGy-ZCy2nK-cKxuxL
