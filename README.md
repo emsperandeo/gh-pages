@@ -46,9 +46,10 @@ https://commons.wikimedia.org/wiki/File:Sugar_2xmacro.jpg
 https://commons.wikimedia.org/wiki/File:2014_Prowincja_Szirak,_Giumri,_Owoce_i_warzywa.jpg
 https://commons.wikimedia.org/wiki/File:Beef_Burger_In_Kota_Kinabalu,_Malaysia.jpg
 https://commons.wikimedia.org/wiki/File:Various_grains_edit2.jpg
-https://commons.wikimedia.org/wiki/File:Looking_at_Food_Labels_(098)_(7396780726).jpg
+https://www.flickr.com/photos/yeknom02/4297352054/in/photolist-7xK43N-ygxFoL-9gPPVB-cMEkr5-JaRNwk-a738jJ-7yLaeW-bB9RMj-J8yW6A-6hr1K4-4QZrJo-DFXZTE-X5Q41f-rrLpY7-8nRWDc-dzFD6h-5QaiWj-5a41jp-qdnqd6-6frGjM-hSJzRZ-JLarQR-j5dkkX-4PRxYM-7e4G3v-2jS1Z-8aLyuV-RyfSbj-7igUg5-2y9Vu-7DSEoC-71xGpy-Cy6Dcf-ajSQW6-dzFDeW-7FN5cr-gtMFf7-rzGyHw-9op9vp-at7Vy-67Y9tx-6jyjp7-dpLhDY-87SSXe-683kRd-bBDxun-opXrUZ-5Ckc6a-7AgVWM-cYsYxC
 https://commons.wikimedia.org/wiki/File:Social_Determinants_of_Health_Infoviz.jpg
 https://commons.wikimedia.org/wiki/File:Social_Determinants_of_Health_Infoviz.jpg
 https://commons.wikimedia.org/wiki/File:Instrumental_Temperature_Record.png
 https://commons.wikimedia.org/wiki/File:Trough_time_-_by_Dan_Taylor.jpg
-https://commons.wikimedia.org/wiki/File:Hog_confinement_barn_interior.jpg
+https://www.flickr.com/photos/82667478@N07/34396258060/
+https://www.flickr.com/photos/smiteme/7967491498/in/photolist-d94tD5-kYz9J3-YtEsSq-eeaGuP-acGxXQ-9JybEV-SHFn5T-ZyiZRR-6oxRu2-ZyeUVb-9njSXG-6bsEdF-bAsuRT-bok4mt-nHiMn7-W1bnUE-ZmbEo1-9njSEh-eqYWYV-ZeJrqG-TdhNjc-21aR8JJ-ZJxwDu-21NbY2q-6qEZZk-9LJbcG-QUwo4M-kYxq34-ZGBmZS-bCiW5f-5Vi5jH-4TZKCK-c11mS-XQLvSe-cRtMvL-b87fs2-4CeSQH-YwFGkh-5Frg1x-8jnQze-ipcmC3-4RmMbz-BBhCC-21zU6Wu-kasiG9-5Vi3LD-8Sw38A-4s6uGy-ZCy2nK-cKxuxL
