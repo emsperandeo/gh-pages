@@ -1,57 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 background-color: #72C2A5;
 font-family: 'Montserrat', sans-serif;
+max-width: 700px;
 }
 
 #body {
-padding: 40px;
+padding: 10px;
 background-color: white;
 border: 1px solid grey;
 max-width: 700px;
 margin: auto;
 border-radius: 35px;
 font-family: 'Montserrat', sans-serif;
+font-size: 15px;
 }
 
 #title {
-background-image: url("images/starch.jpg") no-repeat top center;
+background-image: url('../images/apples.jpg');
 border: 1px solid grey;
-padding: 5px;
-padding-top: 20px;
+padding: 0px;
+padding-top: 0px;
 color: white;
 height: 150px;
 max-width: 700px;
-background: darkgrey;
-border-radius: 10px;
+border-radius: 20px;
 text-align: center;
+font-size: 31px;
+font-family: 'Amatic SC', cursive;
+
 }
 
-#money {
+#money, #next1 {
   padding: 10px;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   float: right;
 }
 
-#dollar {
+#dollar, #next2 {
   padding: 10px;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   float: right;
 }
 
-#coin {
+#coin, #next3 {
   padding: 10px;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   float: right;
 }
 
-#rich {
+#rich, #next4 {
   padding: 10px;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   float: right;
+}
+
+img {
+ max-width: 100%;
+ border-radius: 20px;
+ border: 1px solid grey;
 }
 
 #question1 {
@@ -69,3 +83,5 @@ text-align: center;
 #question4 {
   padding: 20px;
 }
+
+@media (max-width: 700px)
