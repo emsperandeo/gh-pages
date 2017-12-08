@@ -1,20 +1,22 @@
+$( document ).ready(function() {
+
 function question1 (){
-$("#question2,#question3,#question4, #question5").hide();}
+$("#question2,#question3,#question4,#question5").hide();}
 
 function question2 (){
-$("#question1,#question3,#question4, #question5").hide();
+$("#question1,#question3,#question4,#question5").hide();
 $("#question2").show();}
 
 function question3 (){
-$("#question1,#question2,#question4, #question5").hide();
+$("#question1,#question2,#question4,#question5").hide();
 $("#question3").show();}
 
 function question4 (){
-$("#question1,#question3,#question2, #question5").hide();
+$("#question1,#question3,#question2,#question5").hide();
 $("#question4").show();}
 
 function question5 (){
-$("#question1,#question2,#question3, #question4").hide();
+$("#question1,#question2,#question3,#question4").hide();
 $("#question5").show();}
 
 $("#next1").hide();
@@ -26,7 +28,7 @@ question1();
 
 $('#money').click (function(){
 $('#next1').show();
-})
+});
 $('#next1').click ( function(){
 
   question2();
@@ -34,15 +36,16 @@ $('#next1').click ( function(){
 
 $('#dollar').click (function(){
 $('#next2').show();
-})
+});
 $('#next2').click ( function(){
 
   question3();
 });
 
 $('#coin').click (function(){
+  // alert("foo");
 $('#next3').show();
-})
+});
 $('#next3').click ( function(){
 
   question4();
@@ -50,7 +53,7 @@ $('#next3').click ( function(){
 
 $('#rich').click (function(){
 $('#next4').show();
-})
+});
 $('#next4').click ( function(){
 
   question5();
@@ -59,6 +62,9 @@ $('#next4').click ( function(){
 $('#next5').click (function(){
 $('#question5').show();
 });
+
+
+var scoring;
 
 //question1
 var sugar = "<p>Your diet is severely lacking nutrients. Let's make some changes. Sugar is very hard on your body, especially when you're lacking a decent fiber intake to help absorb the sugar floating around in your body. Learn more <a href='http://www.onegreenplanet.org/natural-health/why-a-high-sugar-diet-is-so-hard-on-your-body/'>here</a>.</p>";
@@ -78,7 +84,7 @@ var gases = "<p>Surpisingly enough, all four of these options are affected by yo
 
 var water = "<p>Surpisingly enough, all four of these options are affected by your dietary choices. Your physical health will take a big hit with excessive meat and starch intake, greenhouse gases are increasing more rapidly than ever (<a href='https://psmag.com/environment/gluttony-global-warming-eating-warmer-planet-96495'>source</a>), water shortages are predicted as early as 2050 (<a href='https://www.forksoverknives.com/freshwater-abuse-and-loss-where-is-it-all-going/#gs.CTJCd_w'>learn more</a>), and your compassion for animals is sacrificed at the price of a burger. Animals are tortured, abused, and then murdered. There is no such thing as humane dairy or meat production (<a href='https://freefromharm.org/dairyfacts/'>learn more</a>). It's time to stop ignoring the fact that the food we eat is contributing to global warming, mass murder, and illness. These are choices we make, and by making such a simple decision to change what we put in our bodies, we can save the lives of animals and our future generations. Let's keep the earth habitable.</p>";
 
-var animal = "<p>Surpisingly enough, all four of these options are affected by your dietary choices. Your physical health will take a big hit with excessive meat and starch intake, greenhouse gases are increasing more rapidly than ever (<a href='https://psmag.com/environment/gluttony-global-warming-eating-warmer-planet-96495'>source</a>), water shortages are predicted as early as 2050 (<a href='https://www.forksoverknives.com/freshwater-abuse-and-loss-where-is-it-all-going/#gs.CTJCd_w'>learn more</a>), and your compassion for animals is sacrificed at the price of a burger. Animals are tortured, abused, and then murdered. There is no such thing as humane dairy or meat production (<a href='https://freefromharm.org/dairyfacts/'>learn more</a>). It's time to stop ignoring the fact that the food we eat is contributing to global warming, mass murder, and illness. These are choices we make, and by making such a simple decision to change what we put in our bodies, we can save the lives of animals and our future generations. Let's keep the earth habitable.</p>";
+var animals = "<p>Surpisingly enough, all four of these options are affected by your dietary choices. Your physical health will take a big hit with excessive meat and starch intake, greenhouse gases are increasing more rapidly than ever (<a href='https://psmag.com/environment/gluttony-global-warming-eating-warmer-planet-96495'>source</a>), water shortages are predicted as early as 2050 (<a href='https://www.forksoverknives.com/freshwater-abuse-and-loss-where-is-it-all-going/#gs.CTJCd_w'>learn more</a>), and your compassion for animals is sacrificed at the price of a burger. Animals are tortured, abused, and then murdered. There is no such thing as humane dairy or meat production (<a href='https://freefromharm.org/dairyfacts/'>learn more</a>). It's time to stop ignoring the fact that the food we eat is contributing to global warming, mass murder, and illness. These are choices we make, and by making such a simple decision to change what we put in our bodies, we can save the lives of animals and our future generations. Let's keep the earth habitable.</p>";
 
 //question4
 
@@ -86,9 +92,9 @@ var hard = "<p>Many people are under the impression that it is too hard and time
 
 var nutrients = "<p>On the contrary. A plant-based diet is one of the best things you could do for your body. Getting enough protein is easy with nurtient rich foods like brown rice, beans, oats and nuts. Not to mention all the fiber-rich vegetables you'll be adding to your diet, which is often what most diets are deficient of. Learn <a href= 'http://www.onegreenplanet.org/natural-health/nutritional-concerns-about-a-plant-based-diet-the-myths-and-realities/'>here</a>.</p>";
 
-var food = "<p>Just like anything, vegan food can be done poorly and (more commonly) wonderfully. There are vegan alternatives to almost every kind of food you can imagine. Ice cream, bacon, eggs, cheese, sour cream, creamers, you name it. Companys are accomadting vegans now more than ever! You can even find Almond Nog and dairy-free Bailey's for the holidays! Learn more <a href='http://www.veganoutreach.org/subs/'>here</a></p>";
+var food = "<p>Just like anything, vegan food can be done poorly and (more commonly) wonderfully. There are vegan alternatives to almost every kind of food you can imagine. Ice cream, bacon, eggs, cheese, sour cream, creamers, you name it. Companys are accomedating vegans now more than ever! You can even find Almond Nog and dairy-free Bailey's for the holidays! Learn more <a href='http://www.veganoutreach.org/subs/'>here</a>.</p>";
 
-var difference = "<p>Although it may seem like the decision of one person is miniscule in contrast to all of the poeple on this earth, small changes really do make a difference. If you saved every quarter you ever got in your life, you'd be rich. Same goes for animals. According to Veganuary.com, the average person eats 7,000 animals in their lifetime. Not only will it help the wellbeing of animals by sparing these lives, but it will decrease the demand for meat in dairy products, which will help our planet by using less land, grain, and water. Check out this article to see where I got my <a href='http://www.veganuary.com/us/myths/but-surely-one-person-going-vegan-wont-make-a-difference/'>information</a></p>";
+var difference = "<p>Although it may seem like the decision of one person is miniscule in contrast to all of the poeple on this earth, small changes really do make a difference. If you saved every quarter you ever got in your life, you'd be rich. Same goes for animals. According to Veganuary.com, the average person eats 7,000 animals in their lifetime. Not only will it help the wellbeing of animals by sparing these lives, but it will decrease the demand for meat in dairy products, which will help our planet by using less land, grain, and water. Check out this article to see where I got my <a href='http://www.veganuary.com/us/myths/but-surely-one-person-going-vegan-wont-make-a-difference/'>information</a>.</p>";
 
 
 document.getElementById("question1").onsubmit=function() {
@@ -98,7 +104,7 @@ document.getElementById("question1").onsubmit=function() {
 
 	document.getElementById("score").innerHTML = result;
 
-  scoring = [
+scoring = [
   	   {score:"Sugar:",feedback: sugar, image: "images/sugar.jpg", caption: "via", imgsource: "<a href='https://commons.wikimedia.org/wiki/File%3ASugar_2xmacro.jpg'>Wikicommons</a>"},
 
   	   {score:"Vegetables:",feedback: vegetables, image: "images/veg.jpg", caption: "via", imgsource: "<a href='https://commons.wikimedia.org/wiki/File:2014_Prowincja_Szirak,_Giumri,_Owoce_i_warzywa.jpg'>Wikicommons</a>"},
@@ -106,7 +112,7 @@ document.getElementById("question1").onsubmit=function() {
   	   {score:"Meat:",feedback: meat, image: "images/beef.jpg", caption: "via", imgsource: "<a href='https://commons.wikimedia.org/wiki/File:Beef_Burger_In_Kota_Kinabalu,_Malaysia.jpg'>Wikicommons</a>"},
 
   	   {score:"Starch:",feedback: starch, image: "images/starch.jpg", caption: "via", imgsource: "<a href='https://commons.wikimedia.org/wiki/File:Various_grains_edit2.jpg'>Wikicommons</a>"},
-  	   ];
+     ];
 
 for(i=0; i<scoring.length; i++) {
   if(result == scoring[i].score) {
@@ -199,7 +205,7 @@ return false;
 
   for(i=0; i<scoring.length; i++) {
       if(result == scoring[i].score) {
-      result2 = scoring[i].feedback + "<br /><img src='" + scoring[i].image + "'  />";
+      result2 = scoring[i].feedback + "<br /><img src='" + scoring[i].image + "  />";
   	  }
   	  }
 
@@ -207,3 +213,5 @@ document.getElementById("score2").innerHTML = result2;
 
 return false;
 }
+
+}); // end document ready

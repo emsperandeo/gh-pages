@@ -10,13 +10,16 @@ max-width: 700px;
 
 #body {
 padding: 10px;
+padding-top: 12px;
 background-color: white;
 border: 1px solid grey;
+border: 3px solid green;
 max-width: 700px;
-margin: auto;
 border-radius: 35px;
 font-family: 'Montserrat', sans-serif;
 font-size: 15px;
+margin: auto;
+width: 90%;
 }
 
 #title {
